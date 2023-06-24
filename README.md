@@ -2,7 +2,9 @@
 This is a cheatsheet for WordPress configuration file settings.
 
 
-##Disable FTP authorization for filesystem changes - change FS_METHOD to 'direct'
+
+
+## Disable FTP authorization for filesystem changes - change FS_METHOD to 'direct'
 `php
 define( 'WP_DEBUG', true );
 define('FS_METHOD', 'direct');
