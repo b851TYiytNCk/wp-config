@@ -10,4 +10,4 @@ define( 'WP_DEBUG', true );
 define('FS_METHOD', 'direct');
 define('FS_CHMOD_DIR', (0705 & ~ umask()));
 define('FS_CHMOD_FILE', (0604 & ~ umask()));
-`
+```
